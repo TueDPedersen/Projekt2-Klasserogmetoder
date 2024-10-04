@@ -3,7 +3,6 @@ package test;
 import Model.Student;
 import Model.Team;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 
@@ -23,15 +22,12 @@ public class App {
         int[] GradesStudent05 = {10, 4, 10};
         int[] GradesStudent06 = {7, 7, 10};
 
-
-
         Student student01 = new Student("Simon", true, GradesStudent01);
         Student student02 = new Student("Tobias", true, GradesStudent02);
         Student student03 = new Student("Tue", true, GradesStudent03);
         Student student04 = new Student("Jim", false, GradesStudent04);
         Student student05 = new Student("Tim", true, GradesStudent05);
         Student student06 = new Student("Richard", true, GradesStudent06);
-
 
         team1.addStudent(student01);
         team1.addStudent(student02);
